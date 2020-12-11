@@ -63,7 +63,7 @@
                 <div class="column right">
                     <div class="text">
                         Hello Everybody <span class="typing-2"></span></div>
-                    <a href="#">Download CV</a>
+                    <a href="Anhlpt.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -100,6 +100,7 @@
                             Apps Design</div>
                         <p>
                             Android, IOS, Windows.</p>
+                        <a href="https://ibuildapp.com/projects.php?action=info&projectid=3775572">Hire Me</a>
                     </div>
                 </div>
             </div>
@@ -179,7 +180,7 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>laravel</span>
+                            <span>Laravel</span>
                             <span>70%</span>
                         </div>
                         <div class="line laravel">
