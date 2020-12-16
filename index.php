@@ -46,7 +46,7 @@
                     Hello, my name is</div>
                 <div class="text-2">Le Phan Tuan Anh</div>
                 <div class="text-3">And I'm a <span class="typing"> Freelancer of FSoft</span></div>
-                <a href="https://www.facebook.com/lephan.tuananh.90/">Hire me</a>
+                <a href="https://drive.google.com/file/d/12nn5xdsaaf-nmGiURO5l3BFEmx5yAf_j/view?usp=sharing">My Vlog</a>
             </div>
         </div>
     </section>
