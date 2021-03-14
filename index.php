@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -24,9 +24,9 @@
             <div class="logo">
                 <a href="https://www.facebook.com/lephan.tuananh.90/">Tuan<span>Anh ^^</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#home" class="menu-btn">-Home-</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#services" class="menu-btn">My Hobbies</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#teams" class="menu-btn">Teams</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="card" href="facebook.com">
                     <div class="box">
-                        <img src="Anh.jpg" alt="facebook.com">
+                        <img src="Linh.jpg" alt="facebook.com">
                         <div class="text">
                             Ho Duc Linh</div>
                         <a href="http://www.facebook.com">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Anh.jpg" alt="">
+                        <img src="thang.jpg" alt="">
                         <div class="text">
                             Pham Van Thang</div>
                         <a href="http://www.facebook.com">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Anh.jpg" alt="">
+                        <img src="Vy.jpg" alt="">
                         <div class="text">
                             Dang The Vy</div>
                         <a href="http://www.facebook.com">
@@ -234,7 +234,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Anh.jpg" alt="">
+                        <img src="phuong.jpg" alt="">
                         <div class="text">
                             Pham Van Phuong</div>
                         <a href="http://www.facebook.com">
@@ -316,8 +316,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.facebook.com/lephan.tuananh.90/">Tuan Anh</a> | <span class="far fa-copyright"></span> 2020 All rights
-            reserved.</span>
+        <span>Created By <a href="https://www.facebook.com/lephan.tuananh.90/">Tuan Anh</a> | <i class="fas fa-spinner fa-spin" style="font-size:24px;"></i> run time 2021 .</span>
     </footer>
 
 </body>
