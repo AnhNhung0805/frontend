@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [" DEV Fullstack", " Dev Machine Learning", "DEV Fullstack", "Designer", "Freelancer"],
+        strings: ["Want to become a DEV FullStack", "Learning Front-End in Software Academy"],
         typeSpeed: 120,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["...loading", " My name is Le Phan Tuan Anh, I am currently studying 3rd year at FPT Greenwich. My hobby is to travel in many places, to many lands to know the culture, people, scenery. I also like programming like Dev Websitie, Machine Learning, Deep, ... As a photo lover, I love the beauty of the art of photography, ... Hi thanks for watching things about me."],
+        strings: ["...loading", " My name is Le Phan Tuan Anh, I am currently studying 3rd year at FPT Greenwich. My hobby is to travel in many places, to many lands to know the culture, people, scenery. I also like programming like Dev Websitie, ... As a photo lover, I love the beauty of the art of photography, ... Hi thanks for watching things about me."],
         typeSpeed: 120,
         backSpeed: 60,
         loop: true
@@ -70,3 +70,12 @@ $(document).ready(function(){
         }
     });
 });
+
+$(function() {
+    $('.home .service .').lazy({
+      effect: "fadeIn",
+      effectTime: 10000,
+      threshold: 0
+    });
+});
+      

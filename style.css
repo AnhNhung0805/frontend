@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -16,7 +17,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #9b1010;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -85,11 +86,11 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background: rgba(0,0,0,0.5);
+    background: black;
 }
 .navbar.sticky{
     padding: 30px 0;
-    background:  rgba(70, 88, 187, 0.5);
+    background:  rgba(0, 0, 0);
     /* background: crimson; */
 
 }
@@ -126,7 +127,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(199, 30, 64);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -217,7 +218,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "Itroduce By My Self ";
 }
 .about .about-content .left{
     width: 45%;
@@ -271,7 +272,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "Note: Click Details in Travel to suppise";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -308,7 +309,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "Bacsic for my Knowleged";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -346,7 +347,7 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.skills .skills-content .right span{    
     font-weight: 500;
     font-size: 18px;
 }
@@ -365,32 +366,41 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 60%;
+    color: brown;
 }
 .skills-content .right .css::before{
     width: 60%;
+    color: brown;
 }
 .skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
     width: 50%;
+    color: brown;
 }
+/* .skills-content .right .php::before{
+    width: 60%;
+    color: brown;
+} */
+
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 50%;
+    color: brown;
 }
-.skills-content .right .python::before{
-    width: 70%;
+/* .skills-content .right .python::before{
+    width: 60%;
+    color: brown;
 }
 .skills-content .right .magento::before{
-    width: 70%;
+    width: 60%;
+    color: brown;
 }
 .skills-content .right .laravel::before{
-    width: 70%;
-}
+    width: 60%;
+    color: brown;
+} */
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Friends in class FED01";
 }
 .teams .carousel .card{
     background: #222;
@@ -453,7 +463,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "For Feed Back to Send Gmail";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
